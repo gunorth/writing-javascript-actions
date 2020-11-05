@@ -1,1 +1,9 @@
 name: add-initial-workflow
+on: push
+
+jobs:
+  helloworld:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "echo"
+        run: echo Hello,world!
