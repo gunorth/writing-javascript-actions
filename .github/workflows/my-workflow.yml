@@ -8,9 +8,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: hello-action
+      - name: "hello-action"
         uses: ./.github/actions/hello-world
-          with:
-            second-greeting: "titi et gros minet"
+        with:
+          second-greeting: "titi et gros minet"
 
           
